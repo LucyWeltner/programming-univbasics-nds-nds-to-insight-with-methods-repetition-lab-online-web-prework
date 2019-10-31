@@ -26,9 +26,13 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
+  i = 0
   listOfDirectors = []
-  while index < d[:movies][index].length
-    listOfDirectors << d[:movies][index][:name]
+  while i < source.length
+    listOfDirectors << source[i][:name]
+    i += 1
+  end
+  listOfDirectors
   # Write this implementation
 end
 
