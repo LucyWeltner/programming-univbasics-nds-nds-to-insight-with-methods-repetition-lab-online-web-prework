@@ -41,6 +41,7 @@ def total_gross(source)
   total = 0
   directorGross = directors_totals(source)
   while i < directorGross.length do
+    puts directorGross[i][:name]
     total += directorGross[i][:name]
     i += 1
   end
