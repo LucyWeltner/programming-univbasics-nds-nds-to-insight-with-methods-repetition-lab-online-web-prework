@@ -44,7 +44,7 @@ def total_gross(source)
   puts directorGross
   while i < listOfDirectors.length do
     currentDirector = listOfDirectors[i]
-    directorGross[:currentDirector]
+    total += directorGross[:currentDirector]
     i += 1
   end
   total
