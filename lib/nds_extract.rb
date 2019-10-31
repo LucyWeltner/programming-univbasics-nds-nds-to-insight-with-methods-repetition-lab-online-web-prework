@@ -40,8 +40,8 @@ def total_gross(source)
   i = 0 
   total = 0
   directorGross = directors_totals(source)
-  while i < directorGross.length do 
-    total += directorGross[:name]
+  while i < directorGross.length do
+    total += directorGross[i][:name]
     i += 1
   end
   total
